@@ -46,8 +46,10 @@ If GitHub starts the job late, the routine waits and re-downloads the file
 ## Updating the routine
 
 1. Edit `routine_prompt.md` and commit.
-2. In Claude Code, run `/schedule` → Update, pick "Weekly Paper Digest (cloud)",
-   and replace the prompt with the file contents. Routines are listed at
+2. In Claude Code, run `/schedule` → Update, pick "Weekly Paper Digest (cloud)"
+   (routine id `trig_01NfEen36dyJf9d4dFhWHCu9`,
+   https://claude.ai/code/routines/trig_01NfEen36dyJf9d4dFhWHCu9), and replace
+   the prompt with the file contents. Routines are listed at
    https://claude.ai/code/routines .
 
 The routine needs the claude.ai **Notion** connector attached and posts under
