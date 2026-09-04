@@ -1,0 +1,130 @@
+name: Weekly paper discovery
+
+# Runs the Crossref discovery stage and commits candidates.json.
+#
+# This job exists because the Claude Code cloud sandbox that writes the digest
+# cannot reach api.crossref.org or www.nature.com — its egress proxy rejects
+# both at the CONNECT stage (verified 2026-08-21). GitHub Actions has open
+# egress, and the sandbox CAN read from GitHub, so discovery runs here and the
+# writing agent picks the result up from the repo.
+#
+# Timing: two scheduled attempts, Sunday 20:10 UTC (Monday 05:10 KST) and
+# Sunday 22:10 UTC (Monday 07:10 KST), ahead of the cloud routine at Monday
+# 00:00 UTC (09:00 KST). The old single slot (23:10 UTC, 57 min ahead) was
+# not enough: on 2026-08-31 GitHub started the job 2 h 11 min late (01:21 UTC),
+# the routine read the previous week's candidates.json and published an empty
+# digest. A 4 h lead plus a second attempt covers the delays seen so far
+# (23 min on 08-24, 131 min on 08-31). Both attempts compute the same RUN_DATE
+# (Monday KST) and window; the second simply refreshes the file if the first
+# already ran, and "concurrency" prevents overlap.
+
+on:
+  schedule:
+    - cron: '10 20 * * 0'
+    - cron: '10 22 * * 0'
+  workflow_dispatch:
+    inputs:
+      run_date:
+        description: 'Override RUN_DATE (YYYY-MM-DD, KST). Leave blank for today.'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-discovery
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run discovery
+        id: discover
+        env:
+          PYTHONIOENCODING: utf-8
+          RUN_DATE_OVERRIDE: ${{ inputs.run_date }}
+          # Contact address for Crossref's polite pool. Kept in a secret so the
+          # repository can be public. Discovery still works without it.
+          CROSSREF_MAILTO: ${{ secrets.CROSSREF_MAILTO }}
+          # Free key from https://dev.springernature.com/ . Without it, abstracts
+          # for subscription Nature titles cannot be retrieved from CI at all:
+          # nature.com answers datacenter IPs with a bot challenge.
+          SPRINGER_API_KEY: ${{ secrets.SPRINGER_API_KEY }}
+        run: |
+          set -euo pipefail
+          if [ -n "${RUN_DATE_OVERRIDE}" ]; then
+            python discover.py --run-date "${RUN_DATE_OVERRIDE}" --out candidates.json | tee discovery.log
+          else
+            python discover.py --out candidates.json | tee discovery.log
+          fi
+
+      - name: Assert every journal was reachable
+        run: |
+          python - <<'PY'
+          import json, sys
+          d = json.load(open('candidates.json', encoding='utf-8'))
+          bad = d.get('unreachable') or []
+          if bad:
+              print('::error::unreachable journals: %s' % bad)
+              sys.exit(1)
+          stats = {s['journal']: s['scanned'] for s in d['journal_stats']}
+          if len(stats) != 16:
+              print('::error::expected 16 journals, got %d' % len(stats))
+              sys.exit(1)
+          # The four registration-date journals are the regression-prone ones:
+          # an online-date filter silently returns zero for them.
+          for j in ('Energy & Environmental Science', 'Chemical Society Reviews',
+                    'Joule', 'Science'):
+              if stats.get(j, 0) == 0:
+                  print('::warning::%s scanned 0 records - check the date-field strategy' % j)
+          if d.get('truncated_journals'):
+              print('::warning::truncated (needs cursor paging): %s' % d['truncated_journals'])
+          # Subscription Nature titles have no Crossref abstract; they depend on
+          # scraping dc.description, which nature.com can refuse from CI IPs.
+          for f in d.get('enrich_failures') or []:
+              print('::warning::nature.com enrichment failed for %s (%s): %s'
+                    % (f['doi'], f['journal'], f['error']))
+          print('OK: %d candidates over %s..%s'
+                % (len(d['candidates']), d['window_start'], d['window_end']))
+          PY
+
+      - name: Archive a dated snapshot
+        run: |
+          set -euo pipefail
+          RUN_DATE=$(python -c "import json;print(json.load(open('candidates.json',encoding='utf-8'))['run_date'])")
+          mkdir -p data
+          cp candidates.json "data/candidates-${RUN_DATE}.json"
+
+      - name: Write job summary
+        if: always()
+        run: |
+          {
+            echo '### Discovery run'
+            echo '```'
+            head -30 discovery.log || true
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit results
+        run: |
+          set -euo pipefail
+          git config user.name  'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add candidates.json data/
+          if git diff --staged --quiet; then
+            echo 'nothing to commit'
+          else
+            RUN_DATE=$(python -c "import json;print(json.load(open('candidates.json',encoding='utf-8'))['run_date'])")
+            git commit -m "chore: weekly discovery ${RUN_DATE}"
+            git push
+          fi

@@ -1,0 +1,443 @@
+{
+ "run_date": "2026-08-31",
+ "window_start": "2026-08-23",
+ "window_end": "2026-08-30",
+ "generated_utc": "2026-08-31T01:21:45+00:00",
+ "discovery_mode": "Crossref REST API (single path)",
+ "journal_stats": [
+  {
+   "journal": "Nature",
+   "date_field": "online",
+   "scanned": 79,
+   "fetched": 79,
+   "candidates": 0
+  },
+  {
+   "journal": "Nature Energy",
+   "date_field": "online",
+   "scanned": 2,
+   "fetched": 2,
+   "candidates": 0
+  },
+  {
+   "journal": "Nature Materials",
+   "date_field": "online",
+   "scanned": 11,
+   "fetched": 11,
+   "candidates": 0
+  },
+  {
+   "journal": "Nature Chemistry",
+   "date_field": "online",
+   "scanned": 6,
+   "fetched": 6,
+   "candidates": 0
+  },
+  {
+   "journal": "Nature Communications",
+   "date_field": "online",
+   "scanned": 259,
+   "fetched": 259,
+   "candidates": 2
+  },
+  {
+   "journal": "Nature Reviews Materials",
+   "date_field": "online",
+   "scanned": 2,
+   "fetched": 2,
+   "candidates": 0
+  },
+  {
+   "journal": "Nature Nanotechnology",
+   "date_field": "online",
+   "scanned": 4,
+   "fetched": 4,
+   "candidates": 0
+  },
+  {
+   "journal": "Nature Synthesis",
+   "date_field": "online",
+   "scanned": 7,
+   "fetched": 7,
+   "candidates": 0
+  },
+  {
+   "journal": "Science",
+   "date_field": "created",
+   "scanned": 38,
+   "fetched": 38,
+   "candidates": 0
+  },
+  {
+   "journal": "Joule",
+   "date_field": "created",
+   "scanned": 6,
+   "fetched": 6,
+   "candidates": 0
+  },
+  {
+   "journal": "Energy & Environmental Science",
+   "date_field": "created",
+   "scanned": 11,
+   "fetched": 11,
+   "candidates": 2
+  },
+  {
+   "journal": "JACS",
+   "date_field": "online",
+   "scanned": 9,
+   "fetched": 9,
+   "candidates": 0
+  },
+  {
+   "journal": "Chemical Society Reviews",
+   "date_field": "created",
+   "scanned": 6,
+   "fetched": 6,
+   "candidates": 0
+  },
+  {
+   "journal": "Advanced Materials",
+   "date_field": "online",
+   "scanned": 88,
+   "fetched": 88,
+   "candidates": 8
+  },
+  {
+   "journal": "Advanced Energy Materials",
+   "date_field": "online",
+   "scanned": 31,
+   "fetched": 31,
+   "candidates": 10
+  },
+  {
+   "journal": "ACS Energy Letters",
+   "date_field": "online",
+   "scanned": 0,
+   "fetched": 0,
+   "candidates": 0
+  }
+ ],
+ "unreachable": [],
+ "truncated_journals": [],
+ "cof_pba_flagged": [],
+ "no_abstract_dois": [],
+ "enrich_failures": [],
+ "candidates": [
+  {
+   "doi": "10.1038/s41467-026-77095-x",
+   "title": "Additive strongly-coordinated solvation structure towards high-voltage 600 Wh/kg-class lithium metal pouch cell",
+   "journal": "Nature Communications",
+   "authors": "Zhaoxia Zhang et al.",
+   "date": "2026-08-24",
+   "date_kind": "published-online (Crossref)",
+   "url": "https://doi.org/10.1038/s41467-026-77095-x",
+   "abstract": "Abstract Anions involved solvation structures have been widely designed to construct inorganic enriched interfaces to enable wide voltage window, which, however, sacrifices the anions and effective Li + conductivity. Here we propose an additive-coordinated solvation structure of Li + , with the preferred sacrifice of additive rather than anions, to realize stable cycling of 600 Wh kg−1-scale Li metal batteries. Leveraging the molecular design of additives, even a trace amount addition allows for its coordination within the inner sheath of Li + solvation structure. This not only attenuates the excessive consumption of anions and solvent molecules, but also facilitates the formation of robust protective interface. Benefiting from these advantages, a 550.7 Wh kg−1 Li | |LiNi 0.8 Co 0.1 Mn 0.1 O 2 pouch cell maintains 80.0% capacity retention over 180 cycles at 0.1 C charge and 0.5 C discharge rate. Furthermore, the paired Li | | lithium-rich manganese-based layered oxide pouch cell achieves a specific energy of 602.5 Wh kg−1, sustaining 80% capacity retention for 60 cycles at 0.1 C charge/discharge rate, thus validating the suitability of additive coordinated solvation structure.",
+   "abstract_source": "crossref",
+   "topics": [
+    "1-metal-anode"
+   ]
+  },
+  {
+   "doi": "10.1038/s41467-026-76513-4",
+   "title": "Dual-phase engineering of CFx electrode and interphase enables low-temperature Li||CFx batteries",
+   "journal": "Nature Communications",
+   "authors": "Wei Wang et al.",
+   "date": "2026-08-25",
+   "date_kind": "published-online (Crossref)",
+   "url": "https://doi.org/10.1038/s41467-026-76513-4",
+   "abstract": "Low-temperature Li||CF_x batteries undergo performance degradation due to the insulating nature of CF_x and sluggish Li^+ kinetics. Herein, we present a dual-modification strategy integrating porous positive electrode architecture design with customized electrode-electrolyte interphase engineering to overcome these limitations. Our approach features: (i) plasma-enhanced chemical vapor deposition-constructed mesoporous CF_x with conformal carbon coating, and (ii) electrolyte-mediated in situ formation of a sulfur-rich inorganic interphase layer on CF_x surface. The engineered porous framework establishes efficient Li^+ diffusion channels, while the electrolyte-derived interphase significantly enhances Li^+ transport and desolvation kinetics. Moreover, the carbon coating substantially improves electronic conductivity and suppresses LiF stacking. The optimized Li||CF_x system delivers capacities of 428.4 mAh g^−1 at −50 °C and 2 A g^−1, and 333.4 mAh g^−1 at −70 °C and 0.1 A g^−1. Practical 5 Ah pouch cells deliver competitive specific energies of 470 and 332 Wh kg^−1 at −50 and −70 °C under 0.01 A g^−1, respectively. Li||CF_x batteries exhibit severe low-temperature degradation owing to insulating CF_x electrodes and sluggish Li^+ kinetics. The authors propose a dual-modification strategy combining carbon-coated porous CF_x cathodes with an electrolyte-derived interphase, which accelerates Li^+ transport and boosts performance at low temperatures.",
+   "abstract_source": "springer nature meta api",
+   "topics": [
+    "3-sei-interface"
+   ],
+   "online_date_verified": "2026-08-25"
+  },
+  {
+   "doi": "10.1039/d6ee05502h",
+   "title": "Understanding Interfacial Chemistries of LiPF6-Asymmetrically Fluorinated Glyme Ether Electrolytes for High-Voltage Lithium Metal Batteries",
+   "journal": "Energy & Environmental Science",
+   "authors": "Huida Lyu et al.",
+   "date": "2026-08-28",
+   "date_kind": "Crossref registration date (~online)",
+   "url": "https://doi.org/10.1039/d6ee05502h",
+   "abstract": "LiPF6-glyme ether electrolytes have recently emerged as a promising electrolyte configuration for high-voltage lithium metal batteries, combining the favorable compatibility of ether solvents with lithium metal and the high-voltage stability...",
+   "abstract_source": "crossref",
+   "topics": [
+    "1-metal-anode"
+   ]
+  },
+  {
+   "doi": "10.1039/d6ee02577c",
+   "title": "An all-molecular-ferroelectric composite electrolyte couples spontaneous polarization with competitive coordination for durable nickel-rich solid-state lithium metal batteries",
+   "journal": "Energy & Environmental Science",
+   "authors": "Min Gao et al.",
+   "date": "2026-08-25",
+   "date_kind": "Crossref registration date (~online)",
+   "url": "https://doi.org/10.1039/d6ee02577c",
+   "abstract": "Molecular ferroelectrics enable fast lithium-ion transport and stable solid-state lithium metal batteries through spontaneous polarization and competitive coordination.",
+   "abstract_source": "crossref",
+   "topics": [
+    "1-metal-anode"
+   ]
+  },
+  {
+   "doi": "10.1002/adma.74811",
+   "title": "Operando Magnetometry Decodes Space‐Charge Storage in the Solid‐Electrolyte Interphase",
+   "journal": "Advanced Materials",
+   "authors": "Shuxuan Liao et al.",
+   "date": "2026-08-24",
+   "date_kind": "published-online (Crossref)",
+   "url": "https://doi.org/10.1002/adma.74811",
+   "abstract": "ABSTRACT The solid‐electrolyte interphase (SEI) is central to ion transport and electrode stability in lithium‐ion batteries (LIBs), yet how charges dynamically distribute and migrate across the SEI/electrode interface during cycling remains elusive. Here, we couple operando magnetometry with an Fe 3 C magnetic probe to track real‐time charge migration across this electrochemical interface. By further integrating operando ambient‐pressure x‐ray photoelectron spectroscopy (AP‐XPS) with multiscale structural and chemical characterizations, we provide converging evidence that supports SEI‐centered space‐charge storage at the electrode interface. This interfacial space‐charge layer delivers an additional ≈236 mAh g −1 within 0.01–1.4 V. The inorganic‐rich SEI forms efficient ionic pathways, whereas Fe 3 C accommodates spin‐polarized electrons, enabling decoupled ionic and electronic storage across the interface. Additionally, the lithium‐ion hybrid capacitors assembled with the Fe 3 C NP@C electrode deliver an energy density of 98.9 Wh kg −1 at a power density of 20,000 W kg −1 together with sustained long‐term stability. These findings expand the functional role of the SEI and show that operando magnetometry can serve as a sensitive real‐time probe of magnetically coupled interfacial processes in the Fe 3 C‐based and related magnetic systems.",
+   "abstract_source": "crossref",
+   "topics": [
+    "3-sei-interface"
+   ]
+  },
+  {
+   "doi": "10.1002/adma.74659",
+   "title": "Plastic‐Deformation‐Driven Nonepitaxial Deposition of (110)‐Texture Enables Stable Lithium and Sodium Metal Anodes",
+   "journal": "Advanced Materials",
+   "authors": "Xingwei Sun et al.",
+   "date": "2026-08-26",
+   "date_kind": "published-online (Crossref)",
+   "url": "https://doi.org/10.1002/adma.74659",
+   "abstract": "ABSTRACT Uncontrolled Li deposition and dendrite growth severely limit the cycle life of Li metal batteries. Realizing (110)‐oriented Li deposition is an effective strategy for mitigating these issues. However, current regulation methods generally rely on specific substrates or constrained electrochemical conditions, limiting their universality and overlooking the intrinsic mechanical responses of Li. Here we demonstrate a stress‐driven plastic deformation mechanism that drives a nonepitaxial yet (110)‐preferred growth mode independent of external chemistry or substrate structure. The applied stress drives plastic deformation predominantly via crystallographic slip, which gradually reorients grains and strengthens the (110) texture. It markedly improves electrochemical stability, enabling Li||Li symmetric cells to cycle for over 2000 h and Li||NCM811 full cells for over 500 cycles. Importantly, this strategy relies solely on the intrinsic mechanical properties of Li, requiring neither substrate modification nor interfacial engineering, thus ensuring broad compatibility across various systems. The principle also extends to sodium metal anodes, where analogous stress‐driven (110) texture formation is achieved. This work effectively decouples crystallographic orientation control from conventional epitaxial constraints, establishing a universal mechanics‐based approach for regulating alkali metal deposition.",
+   "abstract_source": "crossref",
+   "topics": [
+    "1-metal-anode",
+    "3-sei-interface"
+   ]
+  },
+  {
+   "doi": "10.1002/adma.74635",
+   "title": "Leveraging Data‐Driven and Fundamental Insights for Electrolyte Innovation in Lithium Metal Batteries",
+   "journal": "Advanced Materials",
+   "authors": "Minh Van Duong et al.",
+   "date": "2026-08-23",
+   "date_kind": "published-online (Crossref)",
+   "url": "https://doi.org/10.1002/adma.74635",
+   "abstract": "ABSTRACT The rise of data science and decades of accumulated battery research have paved the way for the general use of computing in research. Here, the largest experimental coulombic efficiency (CE) dataset curated from over 100 scientific articles under strict selection criteria was analyzed to extract insights that would have been difficult to achieve through traditional scientific methods alone. By splitting the dataset according to CE measured using the Aurbach or cycle methods, normalizing electrolyte formulations by mass, and utilizing advanced data analytics coupled with physically informed feature engineering, we discovered that higher sF, lower sC, and sO values, influenced by fluorination degree, carbon chain length, and oxygen amount, respectively, contribute to improved CE. Surprisingly, boiling becomes a governing factor when all other features are identical, with lower boiling corresponding to higher CE. By leveraging insights gained and the model's accurate CE prediction ( R 2 = 0.85), a new electrolyte enabled a high CE of 99.57% in Li||Cu cells, excellent oxidative stability of ∼4.8 V versus Li + /Li, and 80% of capacity retention after more than 700 cycles in Li||NMC811 cells. The versatile machine learning workflow and the crafted features presented in this work can inspire the design of liquid electrolytes for other battery chemistries.",
+   "abstract_source": "crossref",
+   "topics": [
+    "1-metal-anode"
+   ]
+  },
+  {
+   "doi": "10.1002/adma.74820",
+   "title": "Interface Reconstruction Reviving Dead Na Enables 3,800‐Cycle Ah‐Level Anode‐Free Sodium Batteries",
+   "journal": "Advanced Materials",
+   "authors": "Han Wang et al.",
+   "date": "2026-08-25",
+   "date_kind": "published-online (Crossref)",
+   "url": "https://doi.org/10.1002/adma.74820",
+   "abstract": "ABSTRACT The accumulation of inactivated or ‘dead’ Na is the primary cause of rapid capacity decay in anode‐free sodium batteries (AFSBs). These dead Na is typically encapsulated by a passivated solid electrolyte interphase (SEI), which renders it electrochemically inactive. Current strategies have primarily focused on suppressing dead Na formation, yet its reactivation has rarely been explored. Here, we reactivate dead Na by electrochemically reconstructing the interface through a tailored overdischarge method, thereby recovering the lost capacity and extending cycle life. Specifically, this reactivation process selectively dissolves the passivating SEI surrounding dead Na to restore its activity, while simultaneously rebuilding a thin, homogeneous, and NaF‐rich interphase that ensures subsequent stable cycling. Collectively, by periodically using the method, an Ah‐level anode‐free pouch cell realizes 3,800 cycles at 2C with 83.5% capacity retention, representing a 343% enhancement over the best cyclability in the previous report. Besides, a practical 5 Ah anode‐free pouch cell (181.1 Wh kg −1 ) also exhibits stable cycling over 2,500 cycles with 93.7% capacity retention, comparable to the performance of commercial LiFePO 4 batteries, demonstrating great application potential. Moreover, with proven effectiveness across diverse electrolytes and cathodes, this dead Na reactivation method offers a universal and effective pathway toward practical realization of AFSBs.",
+   "abstract_source": "crossref",
+   "topics": [
+    "3-sei-interface"
+   ]
+  },
+  {
+   "doi": "10.1002/adma.74782",
+   "title": "Electrolyte Engineering Challenges and Opportunities for Next‐Generation Aqueous Ammonium‐Ion Batteries",
+   "journal": "Advanced Materials",
+   "authors": "Zi‐Hang Huang et al.",
+   "date": "2026-08-23",
+   "date_kind": "published-online (Crossref)",
+   "url": "https://doi.org/10.1002/adma.74782",
+   "abstract": "ABSTRACT Aqueous ammonium‐ion batteries (AAIBs) have emerged as a promising post‐lithium energy‐storage technology, combining intrinsic safety with sustainable viability. However, unlike other aqueous‐ion batteries, the engineering of AAIB electrolytes confronts a fundamental dilemma: their unique hydrogen‐bond (HB)‐rich environment, which enabling ultrafast NH 4 + transport, concurrently exacerbates water decomposition and undermines electrolyte stability. In this review, we present the first comprehensive analysis of the dual role of HB networks in AAIB electrolytes and delineate their consequences for battery performance. We then systematically examine and evaluate the prevailing strategies devised to circumvent this dilemma, specifically anion engineering, salt‐concentration tuning, pH regulation, organic co‐solvent design, functional‐additive introduction, and semi‐solid electrolyte construction, while concurrently discussing their respective trade‐offs and future outlook. Finally, we outline future directions involving coupled‐reaction batteries, interfacial modeling, machine‐learning‐assisted electrolyte discovery, and sustainable ammonium sourcing. These insights provide a framework for balancing ion‐transport kinetics and electrolyte stability in next‐generation AAIBs.",
+   "abstract_source": "crossref",
+   "topics": [
+    "3-sei-interface"
+   ]
+  },
+  {
+   "doi": "10.1002/adma.74738",
+   "title": "Interrupting Surface‐to‐Bulk Domino Propagation: A Thermal Failure Mitigation Strategy for Layered Oxide Cathodes",
+   "journal": "Advanced Materials",
+   "authors": "Yulong Wang et al.",
+   "date": "2026-08-27",
+   "date_kind": "published-online (Crossref)",
+   "url": "https://doi.org/10.1002/adma.74738",
+   "abstract": "ABSTRACT Layered transition‐metal oxide cathodes are pivotal for lithium‐ion batteries (LIBs)‐powered energy‐storage systems. However, the relentless pursuit of high performance is severely bottlenecked by intrinsic thermal safety concerns, where structural degradation and interfacial instability can trigger catastrophic thermal runaway. Herein, a thermally triggered domino effect, manifesting as a destructive chain reaction that initiates with severe interfacial side reactions at the cathode surface and sequentially propagates toward profound bulk structural collapse, is identified as the headstream of thermal failure. To mitigate these vulnerabilities, a scalable crystalline‐state composite strategy is proposed by integrating micrometer‐scale layered oxides with nanosized olivine‐structured oxides (LMFP). This rationally designed architecture also synergistically realizes volumetric compacted density up to 3.75 g cm −3 and 86% capacity retention over 1000 cycles. Specifically, LMFP affords a dual‐spatial stabilization: it directs the formation of a robust inorganic‐rich cathode–electrolyte interphase while simultaneously functioning as an internal thermal barrier to effectively interrupt this detrimental chain reaction, resulting in 61.3°C and 21.4°C thermal failure delay for both cathodes and ampere‐hour‐level cells, respectively, which creates more than 16 min for evacuation during thermal runaway. This work elucidates a previously overlooked surface‐to‐bulk failure mechanism and delineates a highly viable trajectory for designing intrinsically safe, highly stable cathode architectures.",
+   "abstract_source": "crossref",
+   "topics": [
+    "3-sei-interface"
+   ]
+  },
+  {
+   "doi": "10.1002/adma.74775",
+   "title": "Self‐Sacrificing Flame‐Retardant Oligomer Enables Anion‐Dominated Solvation Structure for High‐Safety and Long‐Life High‐Voltage Lithium‐Metal Batteries",
+   "journal": "Advanced Materials",
+   "authors": "Xing‐Di Li et al.",
+   "date": "2026-08-25",
+   "date_kind": "published-online (Crossref)",
+   "url": "https://doi.org/10.1002/adma.74775",
+   "abstract": "ABSTRACT The commercialization of NCM811‐lithium metal batteries has long been constrained by two major bottlenecks: electrolytes’ flammability and poor electrode interface compatibility. This study designed a multifunctional unsaturated oligomer electrolyte additive (PE) as a coordinator and martyr for batteries’ safety and stability. It integrates flexible segments to promote lithium‐ion transport, phosphorus‐containing segments to achieve both vapor‐phase and condensed‐phase flame retardancy, and the synergy of P═O and C═C effectively stabilizes both the lithium‐metal anode and high‐voltage cathode. This additive selectively partitions into Li + solvation shell, where P═O bond coordinates with Li + and C═C bond establishes anion‐C═C interaction with PF 6 − , constructing a unique anion‐dominated solvation environment in commercial electrolyte with conventional lithium salt concentration to trigger highly stable and LiF/Li x PO y ‐rich interfacial layer formation on electrode surface. At low addition levels, electrolyte flammability is significantly reduced while battery performance is comprehensively enhanced. NCM811‖Li batteries achieved stable cycling for over 500 cycles at 1 C, maintaining 80% capacity retention. Even at 5 C, they retained 76% capacity after 160 cycles. By strategically designing localized molecular structures to synergistically enhance flame retardancy, ion transport, and interfacial stability within a single molecule, this study provides a promising paradigm for the development of electrolytes for high‐safety, long‐life, and high‐energy‐density lithium batteries.",
+   "abstract_source": "crossref",
+   "topics": [
+    "1-metal-anode",
+    "3-sei-interface"
+   ]
+  },
+  {
+   "doi": "10.1002/adma.74814",
+   "title": "Design Principles of Crystal‐Transformed HOF/MOF Heterostructures for Stable Solid‐State Lithium Metal Batteries",
+   "journal": "Advanced Materials",
+   "authors": "Chaofei Guo et al.",
+   "date": "2026-08-26",
+   "date_kind": "published-online (Crossref)",
+   "url": "https://doi.org/10.1002/adma.74814",
+   "abstract": "ABSTRACT The rational design of solid‐state electrolytes (SSEs) with high ionic conductivity, interfacial robustness, and thermal stability remains a critical challenge for lithium metal batteries (LMBs). Herein, we established the crystal‐transformed hydrogen‐bonded organic framework/trinuclear Cu cluster organic framework heterostructures (HOFa/TrCuMOF 8 ) as thermally stable SSEs for LMBs. The crystal‐transformed HOF/MOF heterostructure constructs continuous low‐energy Li + transport pathways, while the pendant ‐CH 3 with strong steric hindrance induces anion adsorption to effectively suppress TFSI − migration. Meanwhile, coordination‐confined TrCu synergizes with imine (C = N) groups to create a dynamically polarized local electronic environment through Li + ‐induced charge redistribution, thereby promoting selective Li + transport. Consequently, the HOFa/TrCuMOF 8 SSEs deliver a high Li + transference number (0.94) and ionic conductivity (2.7 mS cm −1 at 30°C). Compared with polypropylene (PP) separators, the flexible HOFa/TrCuMOF 8 SSEs maintain structural integrity at high temperatures (180°C), effectively suppressing electrolyte shrinkage and thermal short‐circuit propagation. The assembled Li|HOFa/TrCuMOF 8 SSEs|LiFePO 4 LMBs achieve 97.8% capacity retention after 1000 cycles at 2 C and maintain stable cycling even at 100°C. Remarkably, the Li|HOFa/TrCuMOF 8 SSEs|NCM811 pouch cell exhibits an impressive energy density of 259.4 Wh kg −1 with enhanced thermal safety. This work provides a crystal‐transformation strategy for engineering HOF/MOF heterostructures toward thermally stable solid‐state lithium batteries.",
+   "abstract_source": "crossref",
+   "topics": [
+    "1-metal-anode",
+    "5-mof"
+   ]
+  },
+  {
+   "doi": "10.1002/aenm.71442",
+   "title": "Coordination Chemistry Enabled Multifunctional Electrolytes for High‐Rate and Long‐Cycle Sodium‐Metal Batteries",
+   "journal": "Advanced Energy Materials",
+   "authors": "Xiao Zou et al.",
+   "date": "2026-08-26",
+   "date_kind": "published-online (Crossref)",
+   "url": "https://doi.org/10.1002/aenm.71442",
+   "abstract": "ABSTRACT Sodium‐metal batteries (SMBs) are gradually emerging as a powerful supplement to lithium‐ion batteries (LIBs) due to their prominent advantages in resources, cost, performance, and other aspects. However, their practical implementation is hindered by the unstable solid electrolyte interphase (SEI). This interfacial issue triggers dendrite growth and electrolyte consumption, resulting in shortened cycle life and low coulombic efficiency of the batteries. This study proposes a highly efficient strategy: incorporating a solvent‐coordinating additive‐tetramethoxygermane (Ge(OCH 3 ) 4 ) into the conventional electrolyte. This additive weakens the coordination ability between sodium ions (Na + ) and solvents, thereby accelerating Na + transport kinetics. Simultaneously, it enables the in situ formation of a germanium/germanium oxide (Ge/GeO 2 )‐containing SEI layer on the sodium (Na) metal surface, which in turn reduces the nucleation energy barrier of Na metal. This dual functionality facilitates the uniform nucleation and deposition of Na + . As a result, the Na||Na symmetric cell cycles stably over 3500 cycles at a high current density of 10 mA cm −2 . Furthermore, the Na 3 V 2 (PO 4 ) 3 (NVP)||Na full cell achieves ultra‐high‐rate performance up to 100 C and demonstrated stable cycling for 4400 cycles at 20 C, with a capacity retention of 93.3%. This work provides an effective approach for the design of advanced SMB electrolyte systems.",
+   "abstract_source": "crossref",
+   "topics": [
+    "1-metal-anode",
+    "3-sei-interface"
+   ]
+  },
+  {
+   "doi": "10.1002/aenm.71472",
+   "title": "Temperature‐Responsive Electrical Double Layer for Self‐Adaptive Solid Electrolyte Interphase Unlocks Wide‐Temperature Aqueous Zinc Ion Batteries",
+   "journal": "Advanced Energy Materials",
+   "authors": "Shuang Hou et al.",
+   "date": "2026-08-24",
+   "date_kind": "published-online (Crossref)",
+   "url": "https://doi.org/10.1002/aenm.71472",
+   "abstract": "ABSTRACT Constructing a self‐adaptive solid electrolyte interphase (SEI) for wide‐temperature aqueous zinc ion batteries (AZIBs) remains unexplored yet highly challenging. Herein, a temperature‐responsive electrical double layer (EDL) is designed via screening high donor‐number additive, and the EDL composition exhibits temperature‐responsive behavior where elevated temperatures promote anion accumulation and low‐to‐ambient temperatures favor additive enrichment, thereby driving distinct self‐adaptive interfacial chemistries. Experimental and theoretical analyses reveal that low‐to‐ambient temperatures facilitate organic‐inorganic hybrid SEI formation through preferential additive decomposition, whereas high temperatures yield a robust inorganic‐rich SEI via anion decomposition. The self‐adaptive SEIs can significantly modulate Zn 2+ nucleation kinetics across temperatures, promoting uniform Zn deposition with progressively increasing grain sizes during prolonged cycling. Consequently, Zn||Zn cell showcases highly reversible plating/stripping exceeding 5300 cycles at 50 mA cm −2 , while exhibiting broad thermal tolerance across a wide temperature range of −40°C to 60°C. Zn||I 2 full batteries deliver good cycling life of 1000–30 000 cycles, and Ah‐level pouch cell further validates practicality. This work builds the correlation among the temperature‐responsive EDL, interfacial chemistry, and electrochemical performance, advancing wide‐temperature batteries.",
+   "abstract_source": "crossref",
+   "topics": [
+    "1-metal-anode",
+    "3-sei-interface"
+   ]
+  },
+  {
+   "doi": "10.1002/aenm.71504",
+   "title": "Composite Hydrogels With Controlled Liquid Metal Release for Dendrite‐Free Zinc Anodes",
+   "journal": "Advanced Energy Materials",
+   "authors": "Xingjie Wang et al.",
+   "date": "2026-08-24",
+   "date_kind": "published-online (Crossref)",
+   "url": "https://doi.org/10.1002/aenm.71504",
+   "abstract": "ABSTRACT Rechargeable aqueous zinc‐ion batteries offer a cost‐effective and safe solution for large‐scale energy storage. However, uncontrolled Zn dendrite growth, parasitic hydrogen evolution, and poor Zn plating/stripping reversibility still limit their practical deployment. Herein, a Ga‐In liquid metal‐containing hydrogel electrolyte is designed to stabilize the Zn anode. The controlled release of liquid metal regulates the Zn/electrolyte interfacial environment, promotes preferential Zn deposition along the (103) plane, and alleviates structural embrittlement, thereby improving long‐term interfacial stability. Meanwhile, liquid metal released within the hydrogel facilitates the dissolution of Zn dendrites, reducing the risk of internal short circuits. As a result, Zn symmetric cells using the designed hydrogel electrolyte deliver stable cycling for 6000 h at 1 mA cm −2 and 1 mAh cm −2 . Moreover, Zn || NH 4 + ‐V 2 O 5 full cells operate steadily for over 1750 h at 200 mA g −1 with 85% capacity retention. These results demonstrate that a hydrogel electrolyte with controllable liquid metal release provides an effective strategy for stabilizing Zn anodes in aqueous zinc‐ion batteries.",
+   "abstract_source": "crossref",
+   "topics": [
+    "1-metal-anode"
+   ]
+  },
+  {
+   "doi": "10.1002/aenm.71490",
+   "title": "Nanocrystalline LCO/LLZO Composite Cathode Films for Solid State Batteries",
+   "journal": "Advanced Energy Materials",
+   "authors": "Lucie Quincke et al.",
+   "date": "2026-08-25",
+   "date_kind": "published-online (Crossref)",
+   "url": "https://doi.org/10.1002/aenm.71490",
+   "abstract": "ABSTRACT Scalable fabrication of high‐performing composite cathodes remains a key hurdle for oxide‐based all‐solid‐state batteries (ASSBs). Li‐garnet (Li 7 La 3 Zr 2 O 12 , LLZO) electrolytes provide high ionic conductivity and compatibility with lithium metal, yet, combining them with high‐voltage layered oxides is often limited by high‐temperature ceramic processing that complicates manufacturing and promotes interfacial side reactions. Here we report a LiCoO 2 /LLZO composite cathode prepared by single‐solution spray deposition that co‐deposits all constituents at a maximum processing temperature of 750°C. The process produces dense, crack‐free, micrometer‐thick layers with nanograined, phase‐separated microstructures. The two phases of cubic LLZO and layered LiCoO 2 crystallize independently, only minor secondary phases form, and no cobalt migration into the LLZO substrate is detected. Consistent with a low cathode‐electrolyte interfacial resistance observed after the first charge, full cells with lithium metal exhibit 111.7 mAh g −1 CAM initial discharge capacity and retain 93% of the capacity over 100 cycles. Capacity fade is dominated by progressive growth of cathode‐electrolyte interfacial impedance, whereas post‐mortem microscopy reveals preserved adhesion and morphology, suggesting the nanograined architecture accommodates cathode volume changes without severe cracking or delamination. Overall, single‐solution co‐deposition offers a practical, low‐thermal‐budget route to oxide composite cathodes and a scalable platform for extending LLZO‐based ASSBs to broader cathode chemistries.",
+   "abstract_source": "crossref",
+   "topics": [
+    "1-metal-anode"
+   ]
+  },
+  {
+   "doi": "10.1002/aenm.71491",
+   "title": "Rechargeable Seawater Batteries: From Electrochemistry to Energy Storage",
+   "journal": "Advanced Energy Materials",
+   "authors": "Chao Geng et al.",
+   "date": "2026-08-27",
+   "date_kind": "published-online (Crossref)",
+   "url": "https://doi.org/10.1002/aenm.71491",
+   "abstract": "ABSTRACT Rechargeable seawater batteries are emerging as sustainable electrochemical energy‐storage systems that directly exploit natural seawater as an abundant electrolyte and ion reservoir. Beyond conventional seawater‐activated primary batteries and half‐seawater rechargeable systems, fourth‐generation seawater batteries represent a distinct concept in which both electrodes operate directly in natural seawater without nonaqueous anolytes or NASICON‐type ceramic separators. This review clarifies the conceptual boundary between seawater‐based batteries, where seawater mainly serves as a solvent, catholyte, or supporting medium, and genuine rechargeable seawater batteries, where intrinsic seawater ions participate in charge storage and charge compensation. We discuss the fundamental electrochemistry of seawater electrolytes, including ion transport, oxygen/chlorine side reactions, and seawater–electrode interfacial chemistry. Recent advances in cathode materials, including cation‐intercalation hosts and oxygen electrocatalysts, are summarized together with emerging anode materials for single‐ion storage and multi‐ion costorage. Key challenges involving chloride‐induced corrosion, competitive ion storage, interfacial instability, and marine deployment are critically assessed. Future directions are proposed to guide the development of efficient, durable, and scalable rechargeable seawater batteries for marine energy storage.",
+   "abstract_source": "crossref",
+   "topics": [
+    "3-sei-interface"
+   ]
+  },
+  {
+   "doi": "10.1002/aenm.71485",
+   "title": "Coordination Reconstruction and In Situ Chemical Oxidation Bypass Generation Enabling High‐Voltage Aqueous Zn‐Te Batteries",
+   "journal": "Advanced Energy Materials",
+   "authors": "Yijie Jiang et al.",
+   "date": "2026-08-26",
+   "date_kind": "published-online (Crossref)",
+   "url": "https://doi.org/10.1002/aenm.71485",
+   "abstract": "ABSTRACT Aqueous Zn‐Te batteries offer high capacity via a six‐electron TeO 2 /Te/ZnTe reaction, yet suffer from low discharge voltage (∼0.6 V) due to the sluggish conversion kinetics and high overpotential of TeO 2 /Te. Although Cl − enables a lower‐overpotential TeCl 4 /Te conversion, the TeCl 4 hydrolysis leads to an unstable high‐voltage discharge plateau at ∼1.2 V. Besides, the accumulation of poorly conductive tellurium halide along charge hinders electron transport between the reaction zone and current collector, leading to inefficient electrochemical oxidation of Te. Here, based on the hard‐soft acid‐base (HSAB) principle, a borderline base Br − is introduced to reconstruct the coordination of the soft acid Te 4+ to form more stable phases and prevent voltage degradation. Meanwhile, Br 3 − is in situ generated via deep charging, which unlocks a chemical oxidation bypass for Te with facile electron transfer at the solid/electrolyte interface. This improves the oxidation efficiency of Te and increases the proportion of high‐voltage plateau capacity during subsequent discharge. A low‐content polyvinyl pyrrolidone addition further improves the capacity retention through its adsorption effect. Accordingly, the Zn‐Te battery delivers high capacities of 837 mAh g −1 at 0.5 A g −1 and 483 mAh g −1 at 5 A g −1 , with more than half capacity stably contributed by the high‐voltage plateau.",
+   "abstract_source": "crossref",
+   "topics": [
+    "4-current-collector"
+   ]
+  },
+  {
+   "doi": "10.1002/aenm.71473",
+   "title": "Cellulose Materials Integrate Ion Transport, Interfacial Chemistry, and Structural Stability in Zinc Battery Systems",
+   "journal": "Advanced Energy Materials",
+   "authors": "Tengshuai Li et al.",
+   "date": "2026-08-30",
+   "date_kind": "published-online (Crossref)",
+   "url": "https://doi.org/10.1002/aenm.71473",
+   "abstract": "ABSTRACT Rechargeable zinc batteries offer a promising route toward safe, low‐cost, and sustainable energy storage, but their practical application is hindered by nonuniform ion transport, parasitic interfacial reactions, and progressive structural degradation. Cellulose is attractive because its oxygen‐containing functional groups, hierarchical fibrous structure, and processable networks can be tailored for zinc anodes, electrolytes, separators, cathodes, and flexible devices. This Review discusses recent advances in cellulose‐based materials for mild aqueous zinc‐ion batteries and alkaline zinc‐air batteries, focusing on how chemical modification, nanoscale organization, pore structure, and wet‐state mechanics affect ion conduction, electrode/electrolyte contact, and structural retention. Particular attention is given to the evidence supporting proposed mechanisms and to the distinct reaction environments of the two systems, including Zn 2+ transport and plating/stripping in mild electrolytes, and OH − transport, zincate redistribution, ZnO evolution, and air‐electrode processes in alkaline cells. The Review also examines performance trade‐offs, component contributions in multicomponent systems, and the limits of comparisons across different testing conditions. By linking cellulose chemistry and architecture with chemistry‐specific battery requirements, it provides practical guidance for material selection, mechanism verification, and device‐oriented design, while identifying chemical durability, dimensional stability, feedstock consistency, standardized evaluation, and scalable manufacturing as priorities for future development.",
+   "abstract_source": "crossref",
+   "topics": [
+    "1-metal-anode",
+    "3-sei-interface"
+   ]
+  },
+  {
+   "doi": "10.1002/aenm.71520",
+   "title": "Dual‐Diol Synergized Electrolyte for Wide‐Temperature Hydrogel Zn‐Ion Batteries",
+   "journal": "Advanced Energy Materials",
+   "authors": "Qianwen Xue et al.",
+   "date": "2026-08-26",
+   "date_kind": "published-online (Crossref)",
+   "url": "https://doi.org/10.1002/aenm.71520",
+   "abstract": "ABSTRACT Aqueous zinc‐ion batteries (AZIBs) feature low cost, superior safety, and eco‐friendliness, promising extensive prospects for next‐generation electrochemical energy storage. Nevertheless, inferior interfacial stability, uncontrollable Zn dendrite formation, and poor temperature tolerance severely hinder their practical exploitation in flexible electronic devices. Herein, glycerol (Gly) and ethylene glycol (EG) are incorporated into a polyacrylamide (PAM) hydrogel matrix via a facile one‐pot route to fabricate a wide‐temperature‐tolerant PAM‐based composite hydrogel electrolyte (PAM/Gly/EG). Benefiting from the synergistic effect of the two diols, the hydroxyl‐rich structure reconstructs the intrinsic hydrogen bond network of confined water, while coordination interactions modulate the solvation configuration of Zn 2+ , thereby fundamentally restraining Zn dendrite propagation and parasitic hydrogen evolution. The resultant Zn||Zn symmetric cell delivers a long stable lifespan over 3000 h at 1 mA·cm −2 , and sustains steady cycling for 500 h at −20°C and 300 h at 50°C. This synergistic diol modification strategy affords a feasible avenue for structural optimization and practical deployment of wide‐temperature flexible AZIBs.",
+   "abstract_source": "crossref",
+   "topics": [
+    "1-metal-anode"
+   ]
+  },
+  {
+   "doi": "10.1002/aenm.71351",
+   "title": "All‐in‐One 3D Printing for Highly‐Stretchable Zn Metal Batteries: Resolving the Dilemma Between Mechanical Compliance and Electrochemical Stability",
+   "journal": "Advanced Energy Materials",
+   "authors": "Li Zeng et al.",
+   "date": "2026-08-30",
+   "date_kind": "published-online (Crossref)",
+   "url": "https://doi.org/10.1002/aenm.71351",
+   "abstract": "ABSTRACT Aqueous Zn‐ion batteries (ZIBs) hold great promise for flexible energy storage owing to their inherent safety and cost‐effectiveness. However, their integration into stretchable power sources remains fundamentally challenged by strain‐induced interfacial instability, which disrupts electrode‐electrolyte contact, accelerating Zn dendrite growth and parasitic reactions. Herein, we propose a material‐to‐architecture co‐design strategy using bottom‐up 3D printing to fabricate highly stretchable Zn anodes for all‐in‐one ZIBs. At the material level, intrinsic stretchability is realized through an interpenetrating polyurethane‐carbon nanotube‐carboxylated cellulose network, in which dynamic hydrogen bonding establishes electrochemically and mechanically stable interfaces that guide uniform Zn deposition and suppress parasitic reactions. At the structural level, the integration of 3D‐printed serpentine architectures strategically exploits geometric nonlinearity to decouple nominal tensile strain from localized stress via extended relaxation pathways, while enabling a compliant twisting‐bending deformation mode, thus ensuring structural robustness under repeated stretching. Consequently, under 60% tensile strain, the symmetric cell achieves stable cycling for 640 h at 1 mA cm −2 and 1 mAh cm −2 . Furthermore, the all‐in‐one full cell, incorporating 3D‐printed anode, cathode, and electrolyte, maintains 74.5% capacity retention after 500 cycles. This approach resolves the trade‐off between mechanical compliance and interfacial electrochemical stability, enabling high‐performance stretchable batteries for wearable electronics.",
+   "abstract_source": "crossref",
+   "topics": [
+    "1-metal-anode"
+   ]
+  },
+  {
+   "doi": "10.1002/aenm.71454",
+   "title": "Challenges and Design Strategies Toward Aqueous Zinc‐Ion Batteries Beyond Laboratory",
+   "journal": "Advanced Energy Materials",
+   "authors": "Diwen Xu et al.",
+   "date": "2026-08-25",
+   "date_kind": "published-online (Crossref)",
+   "url": "https://doi.org/10.1002/aenm.71454",
+   "abstract": "ABSTRACT Aqueous zinc‐ion batteries (ZIBs) are widely regarded as one of the most promising candidates for next‐generation large‐scale energy storage due to their high safety, cost‐effectiveness, and environmental benignity. Despite recent progress in materials design and interfacial chemistry, practical deployment remains hindered by the gap between laboratory‐scale breakthroughs and industrial requirements. In this review, the critical bottlenecks hindering the practical application of aqueous ZIBs are analyzed from the perspectives of energy density, fast‐charging capability, cycling stability, and wide‐temperature adaptability. The main limitations underlying these challenges, together with their physicochemical origins, are discussed. This is followed by the corresponding approaches involving cathode design, zinc anode regulation, electrolyte optimization, and separator modification for addressing these issues and challenges. Finally, fundamental perspectives on future development pathways toward practical application of high‐energy, safety, and long‐life aqueous ZIBs are presented.",
+   "abstract_source": "crossref",
+   "topics": [
+    "3-sei-interface"
+   ]
+  }
+ ]
+}
