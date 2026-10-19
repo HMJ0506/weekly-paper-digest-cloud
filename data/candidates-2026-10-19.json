@@ -2,7 +2,7 @@
  "run_date": "2026-10-19",
  "window_start": "2026-10-11",
  "window_end": "2026-10-18",
- "generated_utc": "2026-10-18T22:23:05+00:00",
+ "generated_utc": "2026-10-19T00:10:29+00:00",
  "discovery_mode": "Crossref REST API (single path)",
  "journal_stats": [
   {
@@ -163,7 +163,7 @@
    "date": "2026-10-17",
    "date_kind": "published-online (Crossref)",
    "url": "https://doi.org/10.1038/s41467-026-78813-1",
-   "abstract": "The pursuit of high-energy-density all-solid-state lithium batteries necessitates integration with next-generation high-voltage positive electrodes. However, a critical challenge lies in the intrinsic instability of most highly ionically conductive solid electrolytes, which decompose at potentials above 4.30 V vs Li^+/Li, resulting in severe interfacial degradation and increased impedance. Here, we show that an amorphous Li_2Zr_0.625Ta_0.3Cl_4.2O_0.9 halide electrolyte, synthesized via a non-equimolar cation-anion amorphous engineering strategy based on Li_2ZrCl_6, effectively overcomes this limitation. With a high ionic conductivity of 4.11 mS cm^-1 at 25 °C, it enables stable high-potential cycling through kinetically stabilized operation mediated by a self-passivating positive electrode-electrolyte interphase. When paired with LiNi_0.88Mn_0.06Co_0.06O_2 positive electrode and a Li-In alloy negative electrode, the cells retain up to 81.2% of the initial capacity after 2,000 cycles at 10 C under cell cutoff voltages of 4.18 V (corresponding to 4.80 V vs Li+/Li). Overall, non-equimolar cation-anion amorphous engineering enables conductive, high-voltage-tolerant Zr-based halides for all-solid-state lithium batteries. High-voltage solid-state batteries require conductive, stable electrolytes for fast charging. Here, authors show that an amorphous Zr-based oxyhalide electrolyte combines high ionic conductivity with self-passivating interphases, enabling sustained cycling at high voltages.",
+   "abstract": "High-voltage solid-state batteries require conductive, stable electrolytes for fast charging. Here, authors show that an amorphous Zr-based oxyhalide electrolyte combines high ionic conductivity with self-passivating interphases, enabling sustained cycling at high voltages. The pursuit of high-energy-density all-solid-state lithium batteries necessitates integration with next-generation high-voltage positive electrodes. However, a critical challenge lies in the intrinsic instability of most highly ionically conductive solid electrolytes, which decompose at potentials above 4.30 V vs Li^+/Li, resulting in severe interfacial degradation and increased impedance. Here, we show that an amorphous Li_2Zr_0.625Ta_0.3Cl_4.2O_0.9 halide electrolyte, synthesized via a non-equimolar cation-anion amorphous engineering strategy based on Li_2ZrCl_6, effectively overcomes this limitation. With a high ionic conductivity of 4.11 mS cm^-1 at 25 °C, it enables stable high-potential cycling through kinetically stabilized operation mediated by a self-passivating positive electrode-electrolyte interphase. When paired with LiNi_0.88Mn_0.06Co_0.06O_2 positive electrode and a Li-In alloy negative electrode, the cells retain up to 81.2% of the initial capacity after 2,000 cycles at 10 C under cell cutoff voltages of 4.18 V (corresponding to 4.80 V vs Li+/Li). Overall, non-equimolar cation-anion amorphous engineering enables conductive, high-voltage-tolerant Zr-based halides for all-solid-state lithium batteries.",
    "abstract_source": "springer nature meta api",
    "topics": [
     "3-sei-interface"
